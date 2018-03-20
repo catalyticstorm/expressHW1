@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>--STOP-- Survey Time</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery.js"></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+	<div class="header">
+		<div class="jumbotron">
+			<center>
+				<h1><i class="material-icons">person_add</i>   Friend Finder   <i class="material-icons">person_add</i></h1>
+				<h3>For Those who Give a Damn about Facebook</h3>
+			</center>
+		</div>
+	</div>
+	<div class="container">
+		<h2>Survey Questions</h2>
+		<br>
+		<h3><strong>Let's Get to Know You</strong></h3>
+		<p>All of the values below are required.</p>
+		<br>
+		<h4>What's Your Name?</h4>
+		<input type="text" id="name" class="form-control" required>
+		<br>
+		<h4>Wanna submit a link to your image?</h4>
+		<input type="text" id="photo" class="form-control" required>
+		<br>
+		<br>
+
+		<h3><strong>Question I</strong></h3>
+		<h4>Do you drink alcohol and boozazzles?</h4>
+		<select class="chosen-select" id="q1">
+			<option value=""></option>
+			<option value="1">Ew, No!</option>
+			<option value="2">Very rarely</option>
+			<option value="3">Occasionally</option>
+			<option value="4">Frequently</option>
+			<option value="5">Like a Fish</option>
+		</select>
+		
+		<h3><strong>Question II</strong></h3>
+		<h4>Are you Extroverted or Introverted?</h4>
+		<select class="chosen-select" id="q2">
+			<option value=""></option>
+			<option value="1">I'm a hermit</option>
+			<option value="2">Introvert-Biased</option>
+			<option value="3">Eh, half & Half</option>
+			<option value="4">I'm pretty Social</option>
+			<option value="5">I'm the Center of Attention!</option>
+		</select>
+
+		<h3><strong>Question III</strong></h3>
+		<h4>What is Your Preferred Music?</h4>
+		<select class="chosen-select" id="q3">
+			<option value=""></option>
+			<option value="1">Classic Rock! SHOUT IT, SHOUT IT, SHOUT IT OUT LOUUUD</option>
+			<option value="2">Good ol' Bluegrass Country. RED SOLO CUP, I FILL U UP</option>
+			<option value="3">The Beautiful Sound of Classical.</option>
+			<option value="4">Rap (Hip-Hop), B! YeeYYYEEEEEE</option>
+			<option value="5">Whatever is New and Hip! Hashtag Facebook or whatever</option>
+		</select>
+		
+		<h3><strong>Question IV</strong></h3>
+		<h4>What is Your Favorite Gaming Platform?</h4>
+		<select class="chosen-select" id="q4">
+			<option value=""></option>
+			<option value="1">Nintendo</option>
+			<option value="2">My Gaming Computer</option>
+			<option value="3">Xbox</option>
+			<option value="4">PlayStation</option>
+			<option value="5">I Don't Play Video Games</option>
+		</select>
+		
+		<h3><strong>Question V</strong></h3>
+		<h4>Are you Handy with a Tool?</h4>
+		<select class="chosen-select" id="q5">
+			<option value=""></option>
+			<option value="1">I can Fix the Deathstar with Duct Tape and WD-40</option>
+			<option value="2">I'm above average</option>
+			<option value="3">Eh, I can turn a screwdriver...</option>
+			<option value="4">Not really...</option>
+			<option value="5">Tools scare me...</option>
+		</select>
+		
+		<h3><strong>Question VI</strong></h3>
+		<h4>What is your favorite comfort food?</h4>
+		<select class="chosen-select" id="q6">
+			<option value=""></option>
+			<option value="1">Sushi!</option>
+			<option value="2">Anything with Meat...</option>
+			<option value="3">I have a few...</option>
+			<option value="4">I love hors d'oeuvres.</option>
+			<option value="5">Whatever is On The Refreshment Table!</option>
+		</select>
+		
+		<h3><strong>Question VII</strong></h3>
+		<h4>What is Your Favorite Soft Drink?</h4>
+		<select class="chosen-select" id="q7">
+			<option value=""></option>
+			<option value="1">I'm not a big fan of them.</option>
+			<option value="2">Dr. Pepper</option>
+			<option value="3">Root Beer</option>
+			<option value="4">Lemon/Lime</option>
+			<option value="5">Coke or Pepsi</option>
+		</select>
+		
+		<h3><strong>Question VIII</strong></h3>
+		<h4>What is Your Favorite Type of TV Show?</h4>
+		<select class="chosen-select" id="q8">
+			<option value=""></option>
+			<option value="1">Educational TV</option>
+			<option value="2">I don't watch TV</option>
+			<option value="3">Cartoons!</option>
+			<option value="4">Sports</option>
+			<option value="5">Reality TV</option>
+		</select>
+		
+		<h3><strong>Question IX</strong></h3>
+		<h4>What kind of hobby do you have?</h4>
+		<select class="chosen-select" id="q9">
+			<option value=""></option>
+			<option value="1">Juggling... Don't judge me!</option>
+			<option value="2">I write poems and stuff</option>
+			<option value="3">DIY Stuff. I love fixing things!</option>
+			<option value="4">I play an instrument.</option>
+			<option value="5">Other/I don't have one.</option>
+		</select>
+		
+		<h3><strong>Question X</strong></h3>
+		<h4>Why do we have hot water heaters when hot water doesn't need to be heated?</h4>
+		<select class="chosen-select" id="q10">
+			<option value=""></option>
+			<option value="1">...</option>
+			<option value="2">Huh?</option>
+			<option value="3">Hmmmm?</option>
+			<option value="4">Uuhhh...</option>
+			<option value="5">Whua?</option>
+		</select>
+		
+	</div>
+</body>
+</html>
